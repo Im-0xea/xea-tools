@@ -1,0 +1,4 @@
+#!/bin/zsh
+
+. /usr/pkg/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+. /usr/pkg/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
