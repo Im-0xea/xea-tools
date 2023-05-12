@@ -6,9 +6,10 @@ bindsym $mod+d exec bemenu-run | xargs swaymsg exec --
 bindsym $mod+x kill
 bindsym $mod+Shift+q exec swaymsg exit
 
-input * {
-	xkb_layout "dvorak"
-}
+#input * {
+#	xkb_layout "us"
+#}
+include ~/.config/sway/kbd
 exec ~/.scripts/pipewire-launcher &
 
 floating_modifier $mod normal
