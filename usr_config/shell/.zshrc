@@ -17,6 +17,7 @@ compinit
 
 # ALIASES
 alias ls='ls -a --color=yes'
+alias glurp='grim -g "$(slurp)"'
 
 # BINDINGS
 bindkey '^ ' autosuggest-accept
