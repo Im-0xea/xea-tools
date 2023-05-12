@@ -1,4 +1,4 @@
 #!/bin/zsh
 
 . /usr/share/zsh/site-functions/zsh-autosuggestions.zsh
-. /usr/share/zsh/site-contrib/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. /usr/share/zsh/site-functions/zsh-syntax-highlighting.zsh

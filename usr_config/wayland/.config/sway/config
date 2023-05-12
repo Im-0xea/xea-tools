@@ -7,7 +7,7 @@ bindsym $mod+x kill
 bindsym $mod+Shift+q exec swaymsg exit
 
 input * {
-	xkb_layout "us"
+	xkb_layout "dvorak"
 }
 exec ~/.scripts/pipewire-launcher &
 

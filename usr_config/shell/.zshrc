@@ -27,4 +27,5 @@ bindkey '^g' lswidget
 
 # PS1
 #       prompt='%F{#FF1493}%m%f %1~ %F{#5CACEE}>%f '
-prompt='%{[01;31m%}%m%f %1~ %F{#5CACEE}>%f '
+#prompt='%{[01;31m%}%m%f %1~ %F{#5CACEE}>%f '
+prompt='%F{#FF1493}%m%f %1~ %F{#5CACEE}>%f '
