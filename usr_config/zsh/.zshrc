@@ -17,7 +17,9 @@ compinit
 
 # ALIASES
 alias ls='ls -a --color=yes'
+alias gdb='gdb --args'
 alias glurp='grim -g "$(slurp)"'
+alias csview='column -s, -t'
 
 # BINDINGS
 bindkey '^ ' autosuggest-accept
