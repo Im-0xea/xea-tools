@@ -27,6 +27,7 @@ bindkey -r "^g"
 lswidget () { echo; ls; zle redisplay }
 zle -N lswidget
 bindkey '^g' lswidget
+bindkey '^?' backward-delete-char
 
 # PS1
 #       prompt='%F{#FF1493}%m%f %1~ %F{#5CACEE}>%f '
