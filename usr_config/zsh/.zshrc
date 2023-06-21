@@ -27,6 +27,9 @@ bindkey -r "^g"
 lswidget () { echo; ls; zle redisplay }
 zle -N lswidget
 bindkey '^g' lswidget
+clearwidget () { echo; clear; zle redisplay }
+zle -N clearwidget
+bindkey '^l' clearwidget
 bindkey '^?' backward-delete-char
 
 # PS1
