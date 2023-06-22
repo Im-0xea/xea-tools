@@ -3,3 +3,5 @@
 	name = Xea
 [safe]
 	directory = /root/work/futils
+[init]
+	defaultBranch = main
