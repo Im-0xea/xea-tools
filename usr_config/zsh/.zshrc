@@ -17,9 +17,11 @@ compinit
 
 # ALIASES
 alias ls='ls -a --color=yes'
-alias gdb='gdb --args'
+alias e='${EDITOR}'
 alias glurp='grim -g "$(slurp)"'
-alias csview='column -s, -t'
+alias csview='column -s, -t'o
+alias glog='git log --oneline --graph --all'
+alias elinks='elinks -config-dir ~/.config/elinks'
 
 # BINDINGS
 bindkey '^ ' autosuggest-accept
@@ -29,7 +31,10 @@ zle -N lswidget
 bindkey '^g' lswidget
 clearwidget () { echo; clear; zle redisplay }
 zle -N clearwidget
-bindkey '^l' clearwidget
+makewidget () { echo; make; zle redisplay }
+zle -N makewidget
+bindkey '^h' clearwidget
+bindkey '^b' makewidget
 bindkey '^?' backward-delete-char
 
 # PS1

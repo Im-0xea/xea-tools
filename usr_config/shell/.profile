@@ -8,6 +8,7 @@ export PAGER=less
 export PATH="$PATH:$HOME/.scripts"
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.local/bin"
+export PATH="$PATH:$HOME/.cabal/bin"
 
 # SETUP XDG RUNTIME
 export XDG_RUNTIME_DIR=/tmp/$(id -u)-runtime-dir

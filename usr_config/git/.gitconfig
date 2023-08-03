@@ -1,7 +1,10 @@
 [user]
 	email = 0xea@autistici.org
 	name = Xea
-[safe]
-	directory = /root/work/futils
+	signingkey = EFED9C469C966AA4
 [init]
 	defaultBranch = main
+[gpg]
+	program = gpg
+[commit]
+	gpgsign = true
